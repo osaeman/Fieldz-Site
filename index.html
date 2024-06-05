@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Website Title -->
+    <title>Fieldz Ltd | HOME</title>
+
+    <link
+      rel="shortcut icon"
+      href="./assets/feildz ltd-01.jpg"
+      type="image/x-icon"
+    />
+
+    <!-- Google Fonts -->
+    <!-- Preconnecting can help reduce the latency when actual requests are made to this domain, such as when fetching font resources. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Sweet Alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/responsive.css" />
+  </head>
+  <body>
+    <!-- Pre Header -->
+    <div class="pre-header">
+      <div class="pre-header__box container-2">
+        <div>
+          <i class="fas fa-phone-alt"></i>
+          <a href="tel:+44 74 386 905 63">+44 74 386 905 63</a>
+        </div>
+        <div>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:fieldz.ltd@gmail.com">fieldz.ltd@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+      <div class="container-1 header-box">
+        <img src="./assets/feildz ltd.png" alt="" class="logo" />
+        <nav>
+          <ul class="navlinks SMN_effect-31">
+            <li class="nav-item">
+              <a href="./index.html" data-hover="Home"><span>Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/about.html" data-hover="About"
+                ><span>About</span></a
+              >
+            </li>
+            <li class="sub-navMenu nav-item">
+              <a data-hover="Courses"><span>Courses</span></a>
+              <div class="sub-navMenu-dropdown">
+                <nav>
+                  <a href="./pages/cctvOperator.html">CCTV Operator Course</a>
+                  <a href="./pages/doorSupervisor.html"
+                    >Door Supervisor Course</a
+                  >
+                  <a href="./pages/doorSupervisorTop.html"
+                    >Door Supervisor Top Up Course</a
+                  >
+                  <a href="./pages/firstAid.html">First Aid Courses</a>
+                  <a href="./pages/foodSafety.html">Food Safety Course</a>
+                  <a href="./pages/securityGuarding.html"
+                    >Security Guarding Course</a
+                  >
+                  <a href="./pages/securityTraining.html">Security Trainer</a>
+                  <a href="./pages/trafficMarshal.html"
+                    >Traffic Marshal Course</a
+                  >
+                </nav>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a href="./pages/contact.html" data-hover="Contact"
+                ><span>Contact</span></a
+              >
+            </li>
+            <li onclick="showSidebar()" class="hamburger-icon">
+              <ion-icon name="menu-outline"></ion-icon>
+            </li>
+          </ul>
+          <ul class="sidebar">
+            <li onclick="closeSidebar()" class="close-icon">
+              <a href="#"><ion-icon name="close-outline"></ion-icon></a>
+            </li>
+            <li class="items"><a href="./index.html">Home</a></li>
+            <li class="items"><a href="./pages/about.html">About</a></li>
+            <li class="items"><a href="./pages/contact.html">Contact</a></li>
+            <li class="items sidebar-subNavMenu">
+              <a class="sidebar-subNavMenu-btn"
+                >Courses
+                <span class="sidebar-subNavMenu-btn-caret"
+                  ><i class="fas fa-caret-down"></i></span
+              ></a>
+
+              <div class="sidebar-subNavMenu-dropdown">
+                <nav>
+                  <a href="./pages/cctvOperator.html">CCTV Operator Course</a>
+                  <a href="./pages/doorSupervisor.html"
+                    >Door Supervisor Course</a
+                  >
+                  <a href="./pages/doorSupervisorTop.html"
+                    >Door Supervisor Top Up Course</a
+                  >
+                  <a href="./pages/firstAid.html">First Aid Courses</a>
+                  <a href="./pages/foodSafety.html">Food Safety Course</a>
+                  <a href="./pages/securityGuarding.html"
+                    >Security Guarding Course</a
+                  >
+                  <a href="./pages/securityTraining.html">Security Trainer</a>
+                  <a href="./pages/trafficMarshal.html"
+                    >Traffic Marshal Course</a
+                  >
+                </nav>
+              </div>
+            </li>
+
+            <img src="./assets/feildz ltd.png" alt="" />
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <!-- Swiper js -->
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="./assets/cctv 4.jpg" alt="" />
+          <div class="swiper-slide-content">
+            <div class="container-1 SMN_effect-30">
+              <div>
+                <h1>CCTV Operator Course</h1>
+                <p>Training Course for 3 Days</p>
+                <button class="SMN_effect-35">
+                  <a href="./pages/cctvOperator.html">
+                    <span>Read More</span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/first aid 3.jpg" alt="" />
+          <div class="swiper-slide-content">
+            <div class="container-1 SMN_effect-30">
+              <div>
+                <h1>First Aid Courses</h1>
+                <p>First Aid Level 3 Courses</p>
+                <button class="SMN_effect-35">
+                  <a href="./pages/firstAid.html">
+                    <span>Read More</span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/food safety 2.jpg" alt="" />
+          <div class="swiper-slide-content">
+            <div class="container-1 SMN_effect-30">
+              <div>
+                <h1>Food Safety Course</h1>
+                <p>Food Safety Level 2 Course</p>
+                <button class="SMN_effect-35">
+                  <a href="./pages/foodSafety.html">
+                    <span>Read More</span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./assets/security-869216_1920.jpg" alt="" />
+          <div class="swiper-slide-content">
+            <div class="container-1 SMN_effect-30">
+              <div>
+                <h1>Security Guarding Course</h1>
+                <p>Intensive 4-Day Training Program</p>
+                <button class="SMN_effect-35">
+                  <a href="./pages/doorSupervisor.html">
+                    <span> Read More</span>
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <!-- Scroll to Top -->
+    <div class="scroll_to_top">
+      <i class="far fa-long-arrow-alt-up"></i>
+    </div>
+
+    <!-- Intro Section -->
+    <section class="intro-section">
+      <div>
+        <h2>FIELDZ Training UK</h2>
+        <p class="container-1">
+          FIELDZ Training extends a warm welcome to our website. We specialize
+          in providing exceptional training courses to a variety of industries,
+          such as door supervisor, CCTV operator, food safety, and first aid
+          courses. In addition, we have a wealth of experience in offering
+          world-class security services to a variety of business sectors, as
+          well as the community and voluntary sectors.
+        </p>
+
+        <p class="container-1">
+          Our training staff is comprised of educators who are both skilled and
+          experienced, with a combined ten years of experience in education and
+          related fields. In order to ensure the quality of all of our services,
+          we collaborate with highly skilled associate trainers on critical
+          training programs.
+        </p>
+        <button class="SMN_effect-8">
+          <div>
+            <a href="./pages/about.html" data-hover="Read More">
+              <span>Read More</span>
+            </a>
+          </div>
+        </button>
+      </div>
+    </section>
+    <!-- Courses Section -->
+    <section class="courses-section container-1" id="courses">
+      <h2>
+        Courses
+        <span>We </span>Offer
+      </h2>
+      <div class="courses-section__flex">
+        <div>
+          <img src="./assets/food safety 1.jpg" alt="" />
+          <div>
+            <h3>Food Safety Course</h3>
+
+            <button class="courses-card-btn SMN_effect-22">
+              <a href="">
+                <svg>
+                  <rect
+                    x="0"
+                    y="0"
+                    fill="none"
+                    width="100%"
+                    height="100%"
+                  ></rect>
+                </svg>
+                Read More
+              </a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/first aid 9.jpg" alt="" />
+          <div>
+            <h3>First Aid Courses</h3>
+
+            <button class="courses-card-btn SMN_effect-22">
+              <a href="">
+                <svg>
+                  <rect
+                    x="0"
+                    y="0"
+                    fill="none"
+                    width="100%"
+                    height="100%"
+                  ></rect>
+                </svg>
+                Read More
+              </a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/traffic 3.jpg" alt="" />
+          <div>
+            <h3>Traffic Marshal Course</h3>
+
+            <button class="courses-card-btn SMN_effect-22">
+              <a href="">
+                <svg>
+                  <rect
+                    x="0"
+                    y="0"
+                    fill="none"
+                    width="100%"
+                    height="100%"
+                  ></rect>
+                </svg>
+                Read More
+              </a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/cctv 3.jpg" alt="" />
+          <div>
+            <h3>CCTV Operator Course</h3>
+
+            <button class="courses-card-btn SMN_effect-22">
+              <a href="">
+                <svg>
+                  <rect
+                    x="0"
+                    y="0"
+                    fill="none"
+                    width="100%"
+                    height="100%"
+                  ></rect>
+                </svg>
+                Read More
+              </a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/security-guard-6835766_1920.jpg" alt="" />
+          <div>
+            <h3>Security Guarding Course</h3>
+            <button class="courses-card-btn SMN_effect-22">
+              <a href="">
+                <svg>
+                  <rect
+                    x="0"
+                    y="0"
+                    fill="none"
+                    width="100%"
+                    height="100%"
+                  ></rect>
+                </svg>
+                Read More
+              </a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/pexels-kindelmedia-7714724.jpg" alt="" />
+          <div>
+            <h3>Security Trainer Course</h3>
+
+            <button class="courses-card-btn SMN_effect-22">
+              <a href="">
+                <svg>
+                  <rect
+                    x="0"
+                    y="0"
+                    fill="none"
+                    width="100%"
+                    height="100%"
+                  ></rect>
+                </svg>
+                Read More
+              </a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/guard 1.jpg" alt="" />
+          <div>
+            <h3>Door Supervisor Course</h3>
+
+            <button class="courses-card-btn SMN_effect-22">
+              <a href="">
+                <svg>
+                  <rect
+                    x="0"
+                    y="0"
+                    fill="none"
+                    width="100%"
+                    height="100%"
+                  ></rect>
+                </svg>
+                Read More
+              </a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/guard 2.jpg" alt="" />
+          <div>
+            <h3>Door Supervisor Top Up Course</h3>
+
+            <button class="courses-card-btn SMN_effect-22">
+              <a href="">
+                <svg>
+                  <rect
+                    x="0"
+                    y="0"
+                    fill="none"
+                    width="100%"
+                    height="100%"
+                  ></rect>
+                </svg>
+                Read More
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How are we different Section -->
+    <section class="offer-section">
+      <div>
+        <h2>
+          How are
+          <span>we </span>
+          Different?
+        </h2>
+
+        <div class="offer-section-flexbox container-1">
+          <div>
+            <img src="./assets/e34bde25.png" alt="" />
+            <h3>Affordable Course Costs</h3>
+          </div>
+          <div>
+            <img src="./assets/7d813714.png" alt="" />
+            <h3>Persistent 1-1 Assistance from Instructors</h3>
+          </div>
+          <div>
+            <img src="./assets/c12ad8df.png" alt="" />
+            <h3>Proficient Trainers</h3>
+          </div>
+          <div>
+            <img src="./assets/6bb30251.png" alt="" />
+            <h3>Individual/Corporate Training</h3>
+          </div>
+          <div>
+            <img src="./assets/bcf089fd.png" alt="" />
+            <h3>Above 90% Pass Rate</h3>
+          </div>
+          <div>
+            <img src="./assets/724646a9.png" alt="" />
+            <h3>Quick Results and Certification</h3>
+          </div>
+          <div>
+            <img src="./assets/782dc45d.png" alt="" />
+            <h3>Former Students' Recommendations</h3>
+          </div>
+          <div>
+            <img src="./assets/e34bde25.png" alt="" />
+            <h3>Authorized Training Facility</h3>
+          </div>
+          <div>
+            <img src="./assets/da137e56.png" alt="" />
+            <h3>Adaptable and Easy</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------- Guarantee Section--------- -->
+    <section class="benefits-section">
+      <h2>Extra perks</h2>
+      <div class="benefits-section-grid container-1">
+        <div>
+          <img src="./assets/cost.png" alt="" />
+          <span>Affordable Price</span>
+        </div>
+        <div>
+          <img src="./assets/privacy.png" alt="" />
+          <span>Protected Information</span>
+        </div>
+        <div>
+          <img src="./assets/satisfaction.png" alt="" />
+          <span> Contentment Guaranteed</span>
+        </div>
+        <div>
+          <img src="./assets/costumer service.png" alt="" />
+          <span>24/7 Customer Service</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------Footer----------- -->
+    <footer>
+      <div class="footer-grid container-1">
+        <div class="footer-grid-left">
+          <img src="./assets/feildz ltd.png" alt="" />
+          <p>
+            For any training or service. For a free, no-obligation meeting,
+            visit our website and fill out the contact form.
+          </p>
+        </div>
+        <div class="footer-grid-mid">
+          <h4>Quicks Links</h4>
+          <ul>
+            <li>
+              <a href="./index.html"> Home</a>
+            </li>
+
+            <li>
+              <a href="./pages/about.html"> About us</a>
+            </li>
+            <li>
+              <a href="#courses"> Courses</a>
+            </li>
+            <li>
+              <a href="./pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-grid-right">
+          <div>
+            <i class="far fa-mobile"></i> <span>Call Us:</span>
+            <a href="tel:+44 74 386 905 633">+44 74 386 905 63</a>
+          </div>
+          <div>
+            <i class="far fa-envelope"></i><span>Email Us:</span>
+            <a href="mailto:fieldz.ltd@gmail.com">fieldz.ltd@gmail.com</a>
+          </div>
+          <div>
+            <i class="far fa-map-marker-alt"></i>
+            <span>Visit Us:</span>
+            <p>
+              Pegasus Business Park, Herald Way, Castle
+              Donington, Derby DE74 2TZ
+            </p>
+          </div>
+        </div>
+      </div>
+      <span class="copyright-text">Copyright 2023. All rights reserved.</span>
+    </footer>
+  </body>
+  <script src="./js/function.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+
+  <script>
+    // Main Swiper
+    const swiper = new Swiper(".swiper", {
+      // Optional parameters
+      direction: "vertical",
+      loop: true,
+      speed: 2500,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: true,
+        reverseDirection: true,
+      },
+      controller: {
+        inverse: true,
+      },
+      // Navigation arrows
+      navigation: {
+        nextEl: ".swiper-button-prev",
+        prevEl: ".swiper-button-next",
+      },
+    });
+  </script>
+</html>
