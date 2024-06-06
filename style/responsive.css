@@ -64,6 +64,10 @@
   .courses-section-box img {
     height: 440px;
   }
+  .courses-section-box > h2 {
+    font-size: 2.3rem;
+    line-height: 2.6rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -80,9 +84,10 @@
     line-height: 2rem;
   }
   .courses-section-box > h2 {
-    font-size: 2rem;
-    line-height: 2.7rem;
+    font-size: 2.1rem !important;
+    line-height: 2.3rem !important;
   }
+
   .courses-section-box > p {
     font-size: 1.6rem;
   }
@@ -321,19 +326,31 @@
 }
 
 @media (max-width: 576px) {
-  .courses-section-box .course-name {
-    font-size: 3.1rem;
-    line-height: 3.3rem;
-    padding-right: 15px;
+  .courses-section {
+    margin: 0 auto 60px auto;
   }
+  .courses-section-box .course-name {
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+    margin-bottom: 4px;
+  }
+  .courses-section-box > div > div {
+    top: 20px;
+    padding: 7px 9px;
+  }
+  .courses-section-box .course-duration {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
   .courses-section-box img {
     aspect-ratio: 1/0.75;
-    margin: 10px 0 17px 0;
+    margin: 0 0 17px 0;
   }
 
   .courses-section-box > h2 {
-    font-size: 2.7rem;
-    line-height: 2.9rem;
+    font-size: 1.8rem !important;
+    line-height: 2rem !important;
     padding-right: 15px;
   }
   .courses-section-box > p {
@@ -346,16 +363,19 @@
     font-size: 1.5rem;
   }
   .courses-section-box > h3 {
-    font-size: 2.2rem;
-    line-height: 2.6rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
   }
 
   .courses-section-box > .instruction > p {
     font-size: 1.5rem;
   }
   .courses-section-box > .instruction > h4 {
-    font-size: 1.9rem;
-    line-height: 2.2rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .courses-section-box > span {
+    font-size: 1.5rem;
   }
   .courses-section-box > .instruction::after {
     content: "";
