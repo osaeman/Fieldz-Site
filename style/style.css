@@ -962,136 +962,12 @@ footer {
 }
 
 .copyright-text {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   padding: 15px;
+  font-weight: 600;
   display: block;
   background-color: var(--sixth-clr);
-}
-
-/* -------------Contact Us page----------------- */
-
-/* --------- Contact Us Section ----------- */
-.contact-us-section {
-  margin: 100px auto;
-}
-
-.contact-us-section-grid {
-  display: flex;
-  flex-direction: row;
-  background-color: #fdfcfc;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  -ms-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  -o-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.15),
-    -2px 0px 5px 1px rgba(0, 0, 0, 0.15);
-}
-
-.contact-us-section-form {
-  width: 65%;
-  padding: 30px 40px 30px 40px;
-}
-.contact-us-section-form h2 {
-  font-weight: 400 !important;
-  font-size: 2.7rem;
-  margin-bottom: 10px;
-}
-.contact-us-section-form form div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-.contact-us-section-form form div span {
-  display: block;
-  width: 45%;
-}
-
-.contact-us-section-form form label {
-  text-transform: uppercase;
-  display: block;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 30px 0 8px 0;
-}
-.contact-us-section-form form input,
-.contact-us-section-form form textarea {
-  background: none;
-  outline: none;
-  border: none;
-  border-bottom: 1px solid #c0c0c0;
-  padding: 5px 10px 5px 0;
-  width: 100%;
-}
-
-.contact-us-section-form form button {
-  text-transform: uppercase;
-  display: block;
-  font-size: 1.6rem;
-  font-weight: 400;
-  background: none;
-  background-color: var(--primary-shade-2);
-  color: #ffffff;
-  outline: none;
-  border: none;
-  padding: 10px 27px;
-  margin: 15px 0 10px 0;
-  border-radius: 3px;
-  transform: translateX(0);
-  transition: transform 0.4s ease-in;
-  background-color: var(--primary-clr);
-  opacity: 0.6;
-}
-.contact-us-section-form form button:hover {
-  transition: all 0.4s ease-in;
-  transform: translateX(20px);
-  opacity: 1;
-}
-.contact-us-section-grid-right {
-  width: 35%;
-  padding: 30px 60px 30px 30px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: var(--order-btn-clr);
-  margin: -15px 0;
-  border-radius: 5px;
-}
-.contact-us-section-grid-right h2 {
-  font-weight: 400 !important;
-  font-size: 2.7rem;
-  margin-bottom: 20px;
-  color: #fff;
-}
-.contact-us-section-grid-right div {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  color: #fff;
-  margin-bottom: 30px;
-}
-.contact-us-section-grid-right h3 {
-  font-weight: 500;
-  font-size: 1.8rem;
-}
-.contact-us-section-grid-right h3 a,
-.contact-us-section-grid-right h3 span {
-  font-weight: 300;
-}
-.contact-us-section-grid-right div i {
-  color: #fff;
-  font-size: 2.3rem;
-  padding: 0 10px 0 0;
-  border-radius: 50%;
-  margin-right: 6px;
 }
 
 /*---------------- About Us Page------------------ */
@@ -1228,26 +1104,27 @@ footer {
   background-color: white;
   top: 80px;
   left: 0px;
-  padding: 8px 10px;
+  padding: 10px 24px 10px 14px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 .courses-section-box .course-name {
   color: var(--primary-clr);
-  font-size: 3.2rem;
+  font-size: 3rem;
   letter-spacing: 0.5;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   line-height: 3.5rem;
   font-family: "Poppins", sans-serif;
 }
 
 .courses-section-box .course-duration {
-  font-size: 2rem;
+  font-size: 1.8rem;
   letter-spacing: 0.5px;
   margin-bottom: 5px;
   line-height: 2.3rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--sixth-clr);
+  text-transform: uppercase;
 }
 
 .courses-section-box img {
@@ -1356,7 +1233,8 @@ footer {
 .courses-section-bottomOrientImg {
   object-position: 50% 75% !important;
 }
-/* ----------------------------------------------------------------- */
+
+/* -------------Contact Us page----------------- */
 
 .container {
   position: relative;
@@ -1413,7 +1291,7 @@ footer {
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: var(--primary-clr);
+  background-color: #212a31;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;

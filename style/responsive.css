@@ -58,8 +58,11 @@
     padding: 10px 15px;
   }
   .courses-section-box .course-name {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     line-height: 3rem;
+  }
+  .courses-section-box .course-duration {
+    font-size: 1.7rem;
   }
   .courses-section-box img {
     height: 440px;
@@ -72,15 +75,18 @@
 
 @media (max-width: 768px) {
   .courses-section-box .course-name {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
     line-height: 2.8rem;
+  }
+  .courses-section-box > div > div {
+    top: 50px;
   }
   .courses-section-box img {
     height: 380px;
   }
 
   .courses-section-box .course-duration {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: 2rem;
   }
   .courses-section-box > h2 {
